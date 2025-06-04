@@ -1,9 +1,9 @@
 
-const isValid = (s:string):Boolean => {
+const isValid = ( s:string ): boolean => {
     // 括弧を記憶する配列
-    const stack:string[] = [];
+    const stack: string[] = [];
     // 括弧のペアを登録
-    const pairs:{[key:string]:string} = {
+    const pairs: { [key : string]: string } = {
         ')': '(',
         ']': '[',
         '}': '{'
